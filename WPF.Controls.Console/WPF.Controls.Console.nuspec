@@ -4,11 +4,13 @@
         <id>vajkayrene.WPF.Controls.Console</id>
         <version>1.0.0</version>
         <title>WPF.Controls.Console</title>
-        <authors>vajkayrene</authors>
+        <authors>Vajkay René</authors>
+        <iconUrl>https://github.com/vajkayrene/WPF.Controls.Console/blob/master/ProjectIcon.png</iconUrl>
         <licenseUrl>https://github.com/vajkayrene/WPF.Controls.Console/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/vajkayrene/WPF.Controls.Console</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>WPF embedable console control.</description>
-        <summary>MIT</summary>
+        <summary>WPF embedable console control.</summary>
         <frameworkAssemblies>
             <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="" />
             <frameworkAssembly assemblyName="PresentationCore" targetFramework="" />
@@ -22,8 +24,7 @@
             <frameworkAssembly assemblyName="WindowsBase" targetFramework="" />
         </frameworkAssemblies>
     </metadata>
-    <files>
-        <file src="bin\Release\WPF.Controls.Console.dll" target="lib\WPF.Controls.Console.dll" />
-        <file src="bin\Release\WPF.Controls.Console.pdb" target="lib\WPF.Controls.Console.pdb" />
-    </files>
+  <files>
+    <file src="bin\Release\WPF.Controls.Console.pdb" target="lib\net40\WPF.Controls.Console.pdb" />
+  </files>
 </package>
