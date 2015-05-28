@@ -82,6 +82,7 @@
     </None>
     <AppDesigner Include="Properties\" />
     <None Include="StrongName.snk" />
+    <None Include="WPF.Controls.Console.nuspec" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="ConsoleControl.xaml">

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>vajkayrene.WPF.Controls.Console</id>
+        <version>1.0.0</version>
+        <title>WPF.Controls.Console</title>
+        <authors>vajkayrene</authors>
+        <licenseUrl>https://github.com/vajkayrene/WPF.Controls.Console/blob/master/LICENSE</licenseUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>WPF embedable console control.</description>
+        <summary>MIT</summary>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="" />
+            <frameworkAssembly assemblyName="PresentationCore" targetFramework="" />
+            <frameworkAssembly assemblyName="PresentationFramework" targetFramework="" />
+            <frameworkAssembly assemblyName="System" targetFramework="" />
+            <frameworkAssembly assemblyName="System.Core" targetFramework="" />
+            <frameworkAssembly assemblyName="System.Data" targetFramework="" />
+            <frameworkAssembly assemblyName="System.Xaml" targetFramework="" />
+            <frameworkAssembly assemblyName="System.Xml" targetFramework="" />
+            <frameworkAssembly assemblyName="System.Xml.Linq" targetFramework="" />
+            <frameworkAssembly assemblyName="WindowsBase" targetFramework="" />
+        </frameworkAssemblies>
+    </metadata>
+    <files>
+        <file src="bin\Release\WPF.Controls.Console.dll" target="lib\WPF.Controls.Console.dll" />
+        <file src="bin\Release\WPF.Controls.Console.pdb" target="lib\WPF.Controls.Console.pdb" />
+    </files>
+</package>
