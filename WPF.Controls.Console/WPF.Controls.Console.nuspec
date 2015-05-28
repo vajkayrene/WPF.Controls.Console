@@ -5,7 +5,7 @@
         <version>1.0.0</version>
         <title>WPF.Controls.Console</title>
         <authors>Vajkay René</authors>
-        <iconUrl>https://github.com/vajkayrene/WPF.Controls.Console/blob/master/ProjectIcon.png</iconUrl>
+        <iconUrl>https://github.com/vajkayrene/WPF.Controls.Console/raw/master/ProjectIcon.png</iconUrl>
         <licenseUrl>https://github.com/vajkayrene/WPF.Controls.Console/blob/master/LICENSE</licenseUrl>
         <projectUrl>https://github.com/vajkayrene/WPF.Controls.Console</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
