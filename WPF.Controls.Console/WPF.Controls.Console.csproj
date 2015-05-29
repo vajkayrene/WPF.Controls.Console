@@ -56,6 +56,7 @@
     <Compile Include="ConsoleControl.xaml.cs">
       <DependentUpon>ConsoleControl.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ExecuteEventArgs.cs" />
     <Compile Include="Helpers\ControlHelpers.cs" />
     <Compile Include="Internal\ConsoleRegister.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -97,7 +98,6 @@
   </Target>
   -->
   <Target Name="AfterBuild">
-    <Exec Command="$(SolutionDir)\.nuget\nuget.exe pack -OutputDirectory $(ProjectDir)\bin\Release"
-          Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' " />
+    <Exec Command="$(SolutionDir)\.nuget\nuget.exe pack -OutputDirectory $(ProjectDir)\bin\Release" Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' " />
   </Target>
 </Project>

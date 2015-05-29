@@ -16,7 +16,7 @@ namespace WPF.Controls.Console
         int _lastRemovableCharacter = 0;
 
         public static readonly DependencyProperty ExecuteCommandProperty =
-            DependencyProperty.Register("ExecuteCommand", typeof(ICommand), typeof(ConsoleControl), 
+            DependencyProperty.Register("ExecuteCommand", typeof(ICommand), typeof(ConsoleControl),
                 new PropertyMetadata(null));
 
         public static new readonly DependencyProperty BackgroundProperty =
@@ -55,6 +55,8 @@ namespace WPF.Controls.Console
         {
             InitializeComponent();
         }
+
+        public event EventHandler<ExecuteEventArgs> Execute = (o,e) => { };
 
         public ICommand ExecuteCommand
         {
@@ -213,6 +215,8 @@ namespace WPF.Controls.Console
 
         void RaiseExecuteCommand(string command)
         {
+            Execute(this, new ExecuteEventArgs(command));
+
             if (ExecuteCommand != null)
                 ExecuteCommand.Execute(command);
         }
